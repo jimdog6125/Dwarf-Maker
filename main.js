@@ -16,7 +16,7 @@ var Dtorsos = 0;
 var Dappendages = 0
 var Dbits = 0;
 
-function kill(number){
+function getHuman(number){
     humans = humans + number;
     document.getElementById("humans").innerHTML = humans;
 };
